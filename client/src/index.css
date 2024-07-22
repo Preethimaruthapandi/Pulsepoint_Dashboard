@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+/* Define variables for dark and light theme scrollbar styles */
+:root {
+    --scrollbar-track-color-dark: #7a7f9d;
+    --scrollbar-thumb-color-dark: #21295c;
+    --scrollbar-track-color-light: #e0e0e0;
+    --scrollbar-thumb-color-light: #666666;
+}
+
+/* Apply scrollbar styles using CSS variables */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-color-dark);
+}
