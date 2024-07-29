@@ -39,11 +39,11 @@ const Dashboard = () => {
       field: "createdAt",
       headerName: "Created At",
       flex: 1,
-      valueFormatter: (params) => new Date(params.value).toLocaleDateString(),
+      //valueFormatter: (params) => new Date(params.value).toLocaleDateString(),
     },
     {
       field: "products",
-      headerName: "# of Products",
+      headerName: "No of Products",
       flex: 0.5,
       sortable: false,
       renderCell: (params) => params.value.length,
