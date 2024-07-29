@@ -40,7 +40,7 @@ const Transactions = () => {
     },
     {
       field: "products",
-      headerName: "# of Products",
+      headerName: "No of Products",
       flex: 0.5,
       sortable: false,
       renderCell: (params) => params.value.length,
